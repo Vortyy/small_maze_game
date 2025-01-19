@@ -11,3 +11,6 @@ build_launch : build_game
 #build the game
 build_game : 
 	clang src/rayTest.c -lraylib -lGL -lm -lpthread -ldl -lrt -lX11 -L./lib/ -ldynamic_array -o game
+
+clean :
+	rm -rf game
