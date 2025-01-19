@@ -282,7 +282,7 @@ int main(int argc, char *argv[]){
       }
      
       if(player_ptr->life <= 0)
-        exit(1);
+        exit(0);
     }
 
     if(IsKeyPressed(KEY_SPACE)) pause = (pause) ? 0 : 1;
