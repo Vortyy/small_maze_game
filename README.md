@@ -1,4 +1,4 @@
-# (SMG) Simple Maze Game
+# (SMG) Small Maze Game
 
 ![game view panel](/img/main_panel.png) 
 
