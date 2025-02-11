@@ -11,8 +11,7 @@ open doors (brown dots) with keys (yellow dots), and navigate through the enviro
 Additionally, I implemented a feature that allows you to easily create your own maps 
 using a simple .txt file, which can be provided as a parameter.
 
-### Building SMG
------
+## Building SMG
 
 Run the following commands to launch the game :
 ```
@@ -26,7 +25,6 @@ After build SMG, you can run your created map (can't exceed 40 x 40)
 ./game your_map.txt
 ```  
 
-### REF :
-=====
+## REF :
 - [dynamic_array](https://github.com/Vortyy/dynamic_array) is small lib that use small buffer optimization combined with dynamic_array ideas to have growable array memory efficient 
 - [raylib](https://github.com/raysan5/raylib) 
