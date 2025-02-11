@@ -2,11 +2,11 @@
 
 #launch the game with default map
 launch : 
-	game map.txt
+	./game map.txt
 
 #build the game and launch directly after
 build_launch : build_game
-	game map.txt
+	./game map.txt
 
 #build the game
 build_game : 
