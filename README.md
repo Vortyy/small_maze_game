@@ -23,10 +23,10 @@ make launch
 
 After build SMG, you can run your created map (can't exceed 40 x 40)
 ```
-game your_map.txt
+./game your_map.txt
 ```  
 
 ### REF :
------
+=====
 - [dynamic_array](https://github.com/Vortyy/dynamic_array) is small lib that use small buffer optimization combined with dynamic_array ideas to have growable array memory efficient 
 - [raylib](https://github.com/raysan5/raylib) 
